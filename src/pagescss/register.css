@@ -1,0 +1,119 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.container-register {
+    margin-top: 4rem;
+    height: 85vh;
+    width: 100%;
+    /* background-color: skyblue; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.register-container {
+    margin-top: 2rem;
+    height: 70%;
+    width: 30%;
+    /* border: 1px solid grey; */
+
+}
+
+.heading {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heading h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.logos img {
+    width: 3rem;
+}
+
+.instruction {
+    text-align: center;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.input-section {
+    margin-top: 1rem;
+}
+
+.first-input input {
+    width: 100%;
+    padding: 1rem;
+    height: 100%;
+    margin-top: .7rem;
+
+}
+
+.second-input input {
+    width: 100%;
+    padding: 1rem;
+    height: 100%;
+    margin-top: 1rem;
+
+
+}
+
+.btn {
+    margin-top: .7rem;
+}
+
+.btn-register button {
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(255, 0, 0);
+    color: whitesmoke;
+    font-weight: bolder;
+    border: 0;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.img1 {
+    padding: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
+.new-custumer {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.btn button:hover {
+    opacity: 1;
+}
+
+.new-custumer>span {
+    border-bottom: 1px solid grey;
+}
+
+.new-custumer>a {
+    border-bottom: 1px solid grey;
+}

@@ -1,0 +1,47 @@
+.discover-space-wrapper {
+    display: flex;
+    padding: .5rem;
+}
+
+.left-logo-wrapper img {
+    width: 50px;
+    border-radius: 10px;
+  
+}
+.left-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.right-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    /* background-color: red; */
+    width: 100%;
+    text-align: justify;
+}
+
+.right-content-wrapper .company-name {
+    font-weight: 700;
+}
+
+.discover-space-comp {
+    /* border-radius: 1rem; */
+    padding: 5px;
+    cursor: pointer;
+    height: 6rem;
+}
+
+.discover-space-comp:hover {
+    background-color:#F1F2F2;
+}
+
+.lower-discover {
+    background-color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}

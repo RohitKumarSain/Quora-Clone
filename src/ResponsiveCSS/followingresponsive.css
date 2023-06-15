@@ -1,0 +1,29 @@
+@media screen and (max-width: 930px) {
+    .left-content {
+        display: none;
+    }
+
+    .main-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .discover-spaces {
+        width: 90%;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 7500px) {
+  .discover-space-wrapper{
+    gap: 1rem;
+  }
+}
+
+
+
+

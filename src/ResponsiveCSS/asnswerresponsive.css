@@ -1,0 +1,38 @@
+@media screen and (max-width: 1000px) {
+    .answer-inner-section {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .left-section-questions {
+        display: none;
+    }
+
+    .answer-inner-section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .right-topics-youknow {
+        display: none;
+    }
+
+    .mid-questions-for-you {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .button-addtopic button {
+       margin-top: 6px;
+    }
+}
+
+
+
+
+

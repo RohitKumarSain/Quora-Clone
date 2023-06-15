@@ -1,0 +1,16 @@
+@media screen and (max-width: 800px) {
+    .notification-inner-container {
+        width: 90%;
+        /* background-color: red; */
+    }
+
+    .left-filters {
+        display: none;
+    }
+
+    .right-notifications {
+        width: 100%;
+        /* background-color: cadetblue; */
+    }
+
+}

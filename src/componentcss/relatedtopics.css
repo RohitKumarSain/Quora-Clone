@@ -1,0 +1,34 @@
+.related-topics-wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(50, 167, 87, 0.402); */
+}
+
+.heading-related-topics {
+    padding: 5px 10px;
+    font-weight: 700;
+    border-bottom: .5px solid rgba(128, 128, 128, 0.531);
+}
+
+.content-related-Topic-bottom {
+    /* background-color: rgb(78, 90, 126); */
+    height: 100%;
+}
+
+
+.card-content-related {
+    margin-top: 7px;
+    padding: 5px;
+    height: 13%;
+    /* background-color: aqua; */
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+}
+
+.image-related img {
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}

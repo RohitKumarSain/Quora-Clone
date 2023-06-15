@@ -1,0 +1,85 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.spaces-wrapper {
+    margin-top: 5rem;
+    /* background-color: aquamarine; */
+    height: 100%;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+
+}
+
+.spacesbox {
+
+    width: 80%;
+    /* background-color: rebeccapurple; */
+    height: 100%;
+
+}
+
+.spaces-banner-invide-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-spaces-box {
+    width: 70%;
+    height: 100vh;
+    /* background-color: aqua; */
+
+}
+
+.right-pending-invites {
+    width: 25%;
+    height: 20vh;
+    background-color: white;
+}
+
+.banner {
+    background-color: white;
+    height: 20vh;
+    padding: 10px;
+}
+
+.pending-inv {
+    /* background-color: grey; */
+    height: 20vh;
+}
+
+.bottom-pending-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pending-inv>p {
+    margin-bottom: -15px;
+}
+
+.buttons-space button {
+    border: 0;
+    border: 1px solid #3a6eff;
+    color: #3a6eff;
+    border-radius: 1rem;
+    padding: 2px 7px;
+
+}
+
+.buttons-space button:hover {
+    background-color: #3a6eff2a;
+}
+
+.all-cards-categories {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* background-color: white; */
+    gap: .5rem;
+    padding: .7rem;
+    /* background-color:royalblue; */
+}

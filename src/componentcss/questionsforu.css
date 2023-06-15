@@ -1,0 +1,71 @@
+.questionParent {
+    height: auto;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+    padding: 5px 10px;
+}
+
+.question-for-you {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-ans-follow-pass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all-btn-wrapper button {
+    border: 0;
+    margin-left: 1rem;
+    padding: 7px;
+    border-radius: 1rem;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: white;
+
+
+}
+
+.all-btn-wrapper {
+    margin-top: 10px;
+}
+
+.right-arrow-dots span i {
+    font-size: 1.5rem;
+    color: grey;
+
+}
+
+.right-arrow-dots span {
+    padding: 10px;
+    border-radius: 2rem;
+}
+
+#cross-icon {
+    /* background-color: red; */
+    border-radius: 2rem;
+}
+
+#cross-icon:hover {
+    background-color: rgba(182, 191, 197, 0.201);
+}
+
+
+.all-btn-wrapper button:hover {
+
+    background-color: rgba(182, 191, 197, 0.201);
+
+}
+
+.right-arrow-dots span:hover {
+    background-color: rgba(182, 191, 197, 0.201);
+}
+.question-asked{
+    font-weight: 700;
+
+}
+.answer-last-requested{
+    font-size: 13px;
+}

@@ -1,0 +1,26 @@
+.interest-left-container {
+    /* background-color: rebeccapurple; */
+    padding: 10px;
+    font-size: 13px;
+}
+
+.interest-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.interest-box {
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+.interest-box:hover{
+    background-color: rgba(182, 191, 197, 0.201);
+}

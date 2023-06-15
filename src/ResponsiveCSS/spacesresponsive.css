@@ -1,0 +1,48 @@
+@media screen and (max-width: 913px) {
+    .spacesbox {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .right-pending-invites {
+        display: none;
+    }
+
+    .left-spaces-box {
+        width: 95%;
+    }
+
+    .all-cards-categories {
+
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+}
+
+@media screen and (max-width: 476px) {
+
+    .all-cards-categories {
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .all-cards-categories {
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 1rem;
+
+    }
+
+    .left-spaces-box {
+        width: 90%;
+
+    }
+}

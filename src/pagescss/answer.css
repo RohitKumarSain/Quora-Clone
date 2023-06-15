@@ -1,0 +1,141 @@
+.answer-wrapper {
+    margin-top: 4.5rem;
+    height: 100vh;
+    width: 100%;
+    /* background-color: royalblue; */
+    display: flex;
+    justify-content: center;
+    text-align: start;
+}
+
+.answer-inner-section {
+    margin-top: 1rem;
+    width: 75%;
+    display: flex;
+    gap: 10px;
+}
+
+
+.left-section-questions {
+    width: 15%;
+    height: 40vh;
+    /* background-color: rgb(126, 110, 142); */
+    position: sticky;
+    top: 4rem;
+
+}
+
+.mid-questions-for-you {
+    width: 50%;
+    /* background-color: white; */
+}
+
+.right-topics-youknow {
+    width: 20%;
+    /* background-color: aqua; */
+
+    /* background-color: red; */
+}
+
+.questions-info {
+    /* background-color: royalblue; */
+    margin-top: .5rem;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    /* background-color: white; */
+}
+
+.icon-star {
+    /* background-color: rebeccapurple; */
+    color: white;
+    background-color: brown;
+    margin-left: 10px;
+    padding: 3px 5px;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+.topics-inner-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 5px; */
+}
+
+.pencil-wrapper {
+    border: .5px solid rgba(128, 128, 128, 0.469);
+    padding: 2px 7px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pencil-wrapper:hover {
+    background-color: rgba(128, 128, 128, 0.182);
+
+}
+
+.box-no-topics {
+    height: 40;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box-no-topics img {
+    width: 30%;
+}
+
+.button-addtopic button {
+    border: 0;
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 1rem;
+    border: 2px solid #81a4ff;
+    background-color: white;
+    color: #81a4ff;
+    font-weight: 700;
+}
+
+.button-addtopic button:hover {
+    background-color: #81a5ff36;
+}
+
+.question-list div {
+    padding: 5px;
+    font-size: 13px;
+    color: grey;
+}
+
+.question-list div:hover {
+    background-color: rgba(182, 191, 197, 0.201);
+    cursor: pointer;
+}
+
+
+
+.topics5unknow{
+    height: 15vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.topic-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.topicimgwrapper img{
+    width: 100px;
+}

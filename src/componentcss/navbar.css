@@ -1,0 +1,174 @@
+.navbar {
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: 1;
+
+}
+
+.mid-navbar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: skyblue; */
+}
+
+.logo {
+    padding: 10px;
+    width: 10%;
+
+}
+
+.logo img {
+    width: 100px;
+}
+
+.pages {
+    width: 90%;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-left: 1.5rem;
+    /* background-color: rebeccapurple; */
+}
+
+.pages .log {
+    margin-right: 1.2rem;
+
+}
+
+.pages .log i {
+    font-size: 1.3rem;
+
+    /* background-color: red; */
+
+}
+
+.user img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.button-addquestion .add-question-wrapper {
+    background-color: #b92b27;
+    color: whitesmoke;
+    font-size: .9rem;
+    padding: 5px 7px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border: 0;
+    font-weight: 600;
+}
+
+.earth-icon i {
+    font-size: 1.5rem;
+}
+
+.earth-icon i :hover {
+    background-color: rgba(182, 191, 197, 0.201);
+}
+
+
+.tryquora span {
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+
+.tryquora span:hover {
+    background-color: rgba(182, 191, 197, 0.201);
+}
+
+.input input {
+    padding: 7px;
+    width: 350px;
+    border: 0;
+    font-size: 1.1rem;
+    padding-left: 2rem
+}
+
+.input {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.input i {
+    position: relative;
+    left: 25px;
+    top: 2px;
+    color: grey;
+}
+
+.input input[type="text"]::placeholder {
+    text-align: center;
+
+}
+
+*:focus {
+    outline: none;
+}
+
+
+.act {
+    color: #A82723;
+    border-bottom: 4px solid #b92b27;
+
+
+}
+
+.blue {
+    color: rgba(70, 65, 65, 0.897);
+
+}
+
+
+
+
+
+.logo img:hover {
+    opacity: 0.8;
+}
+
+.input:hover {
+
+    border: 0.1px solid skyblue;
+}
+
+.dropdown-item {
+    color: black;
+    border-bottom: 0px;
+    cursor: pointer;
+}
+
+.down-arrow {
+    background-color: #b92b27;
+    color: whitesmoke;
+    font-size: .9rem;
+    padding: 5px 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 0;
+}
+
+
+
+
+
+.nav-btn {
+    cursor: pointer;
+    /* background-color: transparent; */
+    border: none;
+    outline: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+
+
